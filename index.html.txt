@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="splash">
+            <div class="splash inner">
+                <div class="container">
+                    <i class="fab fa-angellist"></i>
+                    <h1 class="page title">Hi to everyone.</h1>
+                    <h2 class="page subtitle">Hi to everything.</h2>
+                </div>
+            </div>
+        </header>
+        <section class ="intro">
+            <div class = "container">
+                <p>This is good chance to try something new and I would take this chance</p>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="section title">about me</h2>
+                <p> For now my occupation is far from programming, but I would like to change it. </p>
+                <p> Before I was hotel worker, contact center consultant, translator, seller. </p>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2 class="section title">What I do</h2>
+                <ul>
+                    <li class="skill left">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/50c0k1TV/pexels-andrea-piacquadio-863977.jpg" alt="image">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title">I do sport</h3>
+                            <p>I go to gym and tabata training</p>
+                        </div>
+                    </li>
+                    <li class="skill right">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/Kjk3dRz0/pexels-artem-beliaikin-879788.jpg" alt="image">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title">Dogs</h3>
+                            <p>The most beautiful beagle in the world is mine</p>
+                        </div>
+                    </li>
+                    <li class="skill left">
+                        <div class="skill-image">
+                            <img src="https://i.postimg.cc/8518C0rv/pexels-ichad-windhiagiri-3989751.jpg" alt="image">
+                        </div>
+                        <div class="skill-description">
+                            <h3 class="skill-title">Reading</h3>
+                            <p>Reading especially dystopia</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div>
+            <h2>Pictures of the sea</h2>
+            <div class="gallery">
+                <img src="https://i.postimg.cc/MZPGcnpK/image1.jpg" >
+                <div class="picname">First picture</div>
+            </div>
+            <div class="gallery">
+                <img src="https://i.postimg.cc/Gmcrqr2S/image3.jpg">
+                <div class="picname">Second picture</div>
+            </div>
+            <div class="gallery">
+                <img src="https://i.postimg.cc/D0MfRMMb/i4.jpg">
+                <div class="picname">Third picture</div>
+            </div>
+            <div id=clearfix></div>
+        </div>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact us</h2>
+                <p>Do not hesistate to drop us a line</p>
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                    <label for="lname">Surname</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your family...">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="poland">Poland</option>
+                        <option value="russia">Russia</option>
+                        <option value="sweden">Sweden</option>
+                    </select>
+                    <label for="subject">Object</label>
+                    <textarea id="subject" name="subject" placeholder="To write something.." style="height:170px"></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </div>
+        <div id=clearfix></div>
+        <div class="footer">
+            <footer>
+                <p>Test Version 2021</p>
+            </footer>
+        </div>
+    </body>
+</html>
