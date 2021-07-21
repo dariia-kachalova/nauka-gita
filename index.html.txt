@@ -26,7 +26,7 @@
         <section class="about">
             <div class="container">
                 <h2 class="section title">about me</h2>
-                <p> For now my occupation is far from programming, but I would like to change it. </p>
+                <p> For now my occupation is far from programming, and I would like to change it. </p>
                 <p> Before I was hotel worker, contact center consultant, translator, seller. </p>
             </div>
         </section>
