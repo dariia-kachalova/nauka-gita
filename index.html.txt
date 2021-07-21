@@ -13,7 +13,7 @@
             <div class="splash inner">
                 <div class="container">
                     <i class="fab fa-angellist"></i>
-                    <h1 class="page title">Hi to everyone.</h1>
+                    <h1 class="page title">Hi to all.</h1>
                     <h2 class="page subtitle">Hi to everything.</h2>
                 </div>
             </div>
